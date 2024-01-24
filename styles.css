@@ -1,13 +1,13 @@
 body {
 	text-align: center;
-	background-color: rgb(31, 23, 80);
+	background-color: rgb(14, 17, 52);
 }
 
 h1 {
 	color: white;
-	font-size: 5rem;
-	margin-bottom: 7rem;
-	text-shadow: 3px 0px 1px rgb(255, 150, 168);
+	font-size: 96px;
+	margin-bottom: 112px;
+	text-shadow: 2px 0.5px 1px rgb(255, 80, 211);
 }
 
 .set {
@@ -18,28 +18,24 @@ h1 {
 }
 
 .set button {
-	color: coral;
+	color: rgb(255, 80, 211);
 	background-color: white;
 	border: none;
-	outline: 0.5rem solid #ffffff2d;
+	outline: 8px solid #ffffff2d;
 	border-radius: 10%;
-	margin: 20px;
-	width: 8rem;
-	height: 8rem;
+	margin: 40px;
+	width: 162px;
+	height: 162px;
 	font-size: 3rem;
-}
-
-img {
-	width: 8rem;
-	height: 8rem;
-	order: -1;
+	font-weight: bold;
+	text-shadow: 2px 0.5px 1px rgb(255, 255, 255);
 }
 
 footer {
 	color: white;
 	font-size: 25px;
-	margin-top: 7rem;
-
+	margin-top: 112px;
+	
 }
 
 .w {
@@ -73,4 +69,17 @@ footer {
 .pressed {
 	box-shadow: 0 3px 4px 0 #DBEDF3;
 	opacity: 0.5;
+}
+
+@media (orientation: landscape) {
+	h1 {
+		font-size: 5rem;
+		margin-bottom: 60px;
+	}
+	.set button {
+		margin: 20px 40px;
+	}
+	footer {
+		margin-top: 60px;
+	}
 }
